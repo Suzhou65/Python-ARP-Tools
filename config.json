@@ -1,0 +1,14 @@
+{
+  "last_update_time": "",
+  "server": "192.168.0.1",
+  "user_prompt":"login:",
+  "user": "admin",
+  "password_prompt":"Password:",
+  "password": "•••••••••••••••",
+  "terminal_prompt": "user@router:/# ",
+  "command":"arp",
+  "interface_prompt":"-i br0 -s",
+  "filter_list":[6,7,8],
+  "device_ip": "",
+  "device_mac_address":""
+}
