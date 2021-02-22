@@ -33,7 +33,7 @@ def configuration( update_config=() ):
             #Initialization
             print("Configuration not found, please initialize.\r\n")
             #Server address
-            server = input("Please enter the server IP address: ")
+            server = input("Please enter the Server IP address: ")
             user_prompt = input("Please enter the prompt when asking username: ")
             user = input("Please enter the username: ")
             password_prompt = input("Please enter the prompt when asking password: ")
