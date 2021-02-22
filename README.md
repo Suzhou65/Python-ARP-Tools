@@ -36,18 +36,18 @@ ARP-Tools store configuration as JSON format file, named ```config.json```.
 You can editing the clean copy, which looks like this:
 ```json
 {
-  "last_update_time":"",
-  "server":"192.168.0.1",
-  "user_prompt":"login:",
-  "user":"admin",
-  "password_prompt":"Password:",
-  "password":"•••••••••••••••",
-  "terminal_prompt":"user@router:/# ",
-  "command":"arp",
-  "interface_prompt":"-s",
-  "filter_list":[],
-  "device_ip":"",
-  "device_mac_address":""
+  "last_update_time": "",
+  "server": "192.168.0.1",
+  "user_prompt": "login:",
+  "user": "admin",
+  "password_prompt": "Password:",
+  "password": "•••••••••••••••",
+  "terminal_prompt": "user@router:/# ",
+  "command": "arp",
+  "interface_prompt": "-s",
+  "filter_list": [],
+  "device_ip": "",
+  "device_mac_address": ""
 }
 ```
 
@@ -96,12 +96,12 @@ Please enter the device MAC address (can be skipped):
 
 To processing ARP data into dataframe correctly, ```filter_list``` need to configure. First directly export ARP data, check the output file ```arp_format_check.csv``` to know which columns needs to drop, then set ```filter_list``` value to ```List```. For example:
 ```json
-"filter_list":[6,7,8],
+"filter_list": [6,7,8],
 ```
 
 Network interface and ARP command format may quite different on different platform or device, check you environments, then modify the parameter.
 ```json
-"interface_prompt":"-s",
+"interface_prompt": "-s",
 ```
 
 ### MAC address format
