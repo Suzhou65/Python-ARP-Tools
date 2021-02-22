@@ -36,17 +36,17 @@ ARP-Tools store configuration as JSON format file, named ```config.json```.
 You can editing the clean copy, which looks like this:
 ```json
 {
-  "last_update_time": "",
-  "server": "192.168.0.1",
+  "last_update_time":"",
+  "server":"192.168.0.1",
   "user_prompt":"login:",
-  "user": "admin",
+  "user":"admin",
   "password_prompt":"Password:",
-  "password": "•••••••••••••••",
-  "terminal_prompt": "user@router:/# ",
+  "password":"•••••••••••••••",
+  "terminal_prompt":"user@router:/# ",
   "command":"arp",
   "interface_prompt":"-s",
   "filter_list":[],
-  "device_ip": "",
+  "device_ip":"",
   "device_mac_address":""
 }
 ```
@@ -119,7 +119,7 @@ In my condition, my router store MAC address in lower-case, and the separate cha
 ### Difference between Traditional router and Mesh router
 Base on different platform or device, even different firmware version, ARP refresh times are different, and traditional routers are quite different from Mesh Wi-Fi.
 
-For example, NETGEAR Orbi AC3000 system, RBR50 main station and RBS50 satellite station has **separated ARP cache**, so careful, Mesh Wi-Fi environments may not be compatible.
+For example, NETGEAR Orbi AC3000 system, RBR50 main station and RBS50 satellite station has ```separated ARP cache```, so careful, Mesh Wi-Fi environments may not be compatible.
 
 ## Import module
 - Import the module
@@ -158,7 +158,7 @@ Logout Router ...
 2021-02-22 10:16:07 | ARP data dump complete
 ARP data save as 'arp_format_check.csv'.
 ```
-If error occurred, it will return ```Boolean ``` or ```None``` as the result.
+If error occurred, it will return ```Boolean``` or ```None``` as the result.
 
 ### ARP to tidy csv file
 ```python
@@ -186,7 +186,7 @@ Logout Router ...
 2021-02-22 10:17:48 | ARP data dump complete
 ARP data save as 'arp_data_output.csv'.
 ```
-If error occurred, it will return ```Boolean ``` or ```None``` as the result.
+If error occurred, it will return ```Boolean``` or ```None``` as the result.
 
 ### ARP Overwatch
 Checking specify device is on ARP list or not, and trying to added back.
@@ -229,7 +229,7 @@ Receive ARP data from router
 Logout
 ```
 It will return ```string``` as the result.  
-If error occurred, it will return ```Boolean ``` or ```None``` as the result.
+If error occurred, it will return ```Boolean``` or ```None``` as the result.
 
 ## Output format
 ### Raw ARP
