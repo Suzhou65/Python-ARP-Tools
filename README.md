@@ -52,10 +52,6 @@ You can editing the clean copy, which looks like this:
 ```
 
 ## Usage
-For using this module, you need to have a domain name, and choice CloudFlare as the DNS hosting services.
-
-Logged in the Cloudflare Dashboard, and go to User Profile, choice [API Tokens](https://dash.cloudflare.com/profile/api-tokens), generated API Token. **Once successfully generated, the token secret is only shown once**, make sure to copy the secret to a secure place. 
-
 This module needs some configuration which is necessary.
 
 ### Telnet function configure
